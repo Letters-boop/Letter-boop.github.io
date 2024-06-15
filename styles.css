@@ -1,0 +1,50 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    margin-top: 60px; /* Reduced to bring the buttons closer to the top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Increased space between buttons */
+}
+
+.navy-button {
+    background-color: rgb(67, 102, 216);
+    color: white;
+    border: 2px solid rgb(67, 102, 216);
+    padding: 20px 40px; /* Further increased padding for larger buttons */
+    font-size: 1.5em; /* Further increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.navy-button:hover {
+    background-color: rgb(67, 102, 216);
+    color: white;
+}
